@@ -19,6 +19,7 @@ export interface IUserState {
 	users: any[];
 	loading: boolean;
 	error: null | string;
+	sortedUsers: any[];
 }
 
 export interface IPostState {
@@ -31,6 +32,7 @@ export enum UserActionTypes {
 	FETCH_USERS = "FETCH_USERS",
 	FETCH_USERS_SUCCESS = "FETCH_USERS_SUCCES",
 	FETCH_USERS_ERROR = "FETCH_USERS_ERROR",
+	SET_USERS = "SET_USERS",
 }
 
 export enum PostsActionTypes {
@@ -53,6 +55,11 @@ interface IFetchUserERRORAction {
 	payload: string;
 }
 
+interface ISetUsers {
+	type: UserActionTypes.SET_USERS;
+	payload: IUser[];
+}
+
 interface IFetchPostAction {
 	type: PostsActionTypes.FETCH_POSTS;
 }
@@ -67,6 +74,6 @@ interface IFetchPostERRORAction {
 	payload: string;
 }
 
-export type UserAction = IFetchUserAction | IFetchUserSUCCESSAction | IFetchUserERRORAction;
+export type UserAction = IFetchUserAction | IFetchUserSUCCESSAction | IFetchUserERRORAction | ISetUsers;
 
 export type PostsAction = IFetchPostAction | IFetchPostSUCCESSAction | IFetchPostERRORAction;
