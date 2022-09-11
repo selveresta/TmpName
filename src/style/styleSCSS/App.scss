@@ -1,0 +1,99 @@
+.App {
+	text-align: center;
+	background-color: #12122d;
+	color: #eeeeee;
+
+	.header {
+		text-align: end;
+		padding: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.control {
+		background-color: #333348;
+		border: 0px;
+		color: white;
+	}
+
+	.control:focus {
+		background-color: #333348;
+		color: white;
+	}
+
+	.search {
+		text-align: end;
+		padding: 30px;
+	}
+
+	.right {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.btn-left {
+		text-align: left;
+	}
+
+	.btn-right {
+		text-align: right;
+	}
+
+	.mybtn {
+		font-family: "Sora";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 30px;
+		background-color: transparent;
+		border: 0px;
+		color: #eeeeee;
+	}
+
+	.npBtns {
+		padding: 60px;
+	}
+
+	.span-left {
+		padding-right: 30px;
+	}
+
+	.span-right {
+		margin-right: 30px;
+	}
+
+	.cardPosts {
+		background-color: #333348;
+		padding: 70px;
+		border-radius: 40px;
+	}
+
+	.accordionBody {
+		text-align: start;
+		background-color: #333348;
+		font-family: "Sora";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 23px;
+		color: #ffffff;
+	}
+
+	.accordion-button {
+		font-family: "Sora";
+		font-style: normal;
+		font-weight: 600px;
+		font-size: 36px;
+		color: #ffffff;
+		background-color: #333348;
+	}
+
+	.accordion-button:not(.collapsed) {
+		font-family: "Sora";
+		font-style: normal;
+		font-weight: 600px;
+		font-size: 36px;
+		color: #ffffff;
+		background-color: #333348;
+	}
+}

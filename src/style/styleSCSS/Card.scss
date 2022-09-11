@@ -1,0 +1,80 @@
+.oneCardSimple {
+	background-color: #333348;
+	border-radius: 40px;
+	width: 420px;
+	height: 370px;
+	margin: 5px;
+
+	.itemCard {
+		text-align: center;
+		margin: 5px;
+		font-family: "Sora";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 30px;
+		text-align: center;
+
+		color: #eeeeee;
+	}
+
+	.attribute {
+		padding-top: 75px;
+	}
+
+	.action-button {
+		width: 248px;
+		height: 70px;
+		background: #52519d;
+		border-radius: 40px;
+		border: 0px;
+		color: #eeeeee;
+		margin-top: 30px;
+
+		font-family: "Sora";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 30px;
+	}
+}
+
+.oneCardSmall {
+	background-color: #333348;
+	border-radius: 40px;
+	width: 270px;
+	height: 265px;
+	margin: 5px;
+
+	.itemCard {
+		font-family: "Sora";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 23px;
+		text-align: center;
+		margin: 5px;
+
+		color: #eeeeee;
+	}
+
+	.attribute {
+		padding-top: 30px;
+	}
+
+	.action-button {
+		width: 196px;
+		height: 55px;
+		background: #52519d;
+		border-radius: 40px;
+		border: 0px;
+		color: #eeeeee;
+		margin-top: 30px;
+
+		font-family: "Sora";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 30px;
+	}
+}
